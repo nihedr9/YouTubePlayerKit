@@ -1,6 +1,8 @@
 import Combine
 import Foundation
+#if canImport(WebKit)
 import WebKit
+#endif
 
 // MARK: - YouTubePlayerWebView
 
