@@ -1,5 +1,7 @@
 import Foundation
+#if canImport(WebKit)
 import struct WebKit.WKError
+#endif
 
 // MARK: - YouTubePlayerAPIError
 
